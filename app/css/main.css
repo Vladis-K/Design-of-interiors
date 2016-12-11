@@ -1,0 +1,215 @@
+body {
+  font-family: 'Roboto', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  color: #333;
+  margin: 0;
+  padding: 0; }
+
+section {
+  position: relative; }
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  z-index: 3; }
+
+.cubetxt {
+  color: #000;
+  margin: 10px 0 0 0;
+  z-index: 10; }
+
+img.sect-3 {
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+nav.navbar {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  width: 100vw;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+nav.navbar-fixed-top {
+  z-index: 9499;
+  top: 0;
+  padding: 25px 0;
+  opacity: 0;
+  background: white;
+  -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.05); }
+
+a.navbar-brand img {
+  position: relative;
+  width: 60%; }
+
+header {
+  position: relative;
+  width: 100%;
+  color: white;
+  background: url("../img/header.jpg");
+  background-size: cover;
+  z-index: -1; }
+
+h1 {
+  margin-top: 20%;
+  text-transform: uppercase;
+  font-size: 50px; }
+
+header .table {
+  display: table;
+  height: 100%; }
+
+header .container {
+  height: 700px; }
+
+header .header-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: white; }
+
+.icon-bar {
+  background: #bbb; }
+
+.lead-cubes {
+  top: -130px;
+  position: relative; }
+
+.lead-cubes .lead-table {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: 20px 0; }
+
+.lead-cubes .lead-table .heading {
+  margin: 0; }
+
+.lead-table {
+  background-size: cover;
+  background-repeat: repeat; }
+
+p.cubetxt {
+  padding-top: 40px;
+  z-index: 10; }
+
+.lead-1 {
+  background-image: url("../img/01.jpg");
+  z-index: -1; }
+
+.lead-1:hover {
+  border: 5px solid red;
+  font-size: 120%; }
+
+.lead-2 {
+  background-image: url("../img/02.jpg");
+  z-index: -1; }
+
+.lead-3 {
+  background-image: url("../img/03.jpg");
+  z-index: -1; }
+
+.shade {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0; }
+
+.shade-1 {
+  background-color: rgba(255, 206, 68, 0.3);
+  -webkit-transition: background-color 0.8s linear 0.1s;
+  transition: background-color 0.8s linear 0.1s;
+    transition-animation-name: rising;
+  z-index: 0; }
+
+.shade-2 {
+  background-color: rgba(255, 206, 68, 0.5);
+  -webkit-transition: background-color .8s linear .1s;
+  transition: background-color .8s linear .1s;
+  z-index: 0; }
+
+.shade-3 {
+  background-color: rgba(255, 206, 68, 0.7);
+  -webkit-transition: background-color .8s linear .1s;
+  transition: background-color .8s linear .1s;
+  z-index: 0; }
+
+.shade-1:hover, .shade-2:hover, .shade-3:hover {
+  background-color: transparent; }
+
+#description {
+  margin: 0;
+  padding: 0; }
+
+p.main-sign {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold; }
+
+.about-us {
+  margin: 0;
+  padding: 0; }
+
+.portfolio {
+  margin: 50px auto; }
+
+.allpictures div img {
+  margin: 10px; }
+
+.btn {
+  padding: 14px 24px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: 0 none; }
+
+.btn-primary {
+  background: #D79E56;
+  color: #ffffff; }
+
+.btn-primary:active, .btn-primary.active {
+  background: #FFCE44;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.sharp {
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #f4511e; }
+
+.carousel-indicators li {
+  border-color: #f4511e; }
+
+.responds {
+  margin: 180px auto; }
+
+.carousel-indicators li.active {
+  background-color: #f4511e; }
+
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic; }
+
+footer {
+  height: 150px;
+  padding: 20px 0;
+  background: red;
+  background: -webkit-gradient(linear, left top, right top, from(#2f2515), color-stop(rgba(47, 37, 21, 0.8)), to(#2f2515));
+  background: -webkit-linear-gradient(left, #2f2515, rgba(47, 37, 21, 0.8), #2f2515);
+  background: linear-gradient(to right, #2f2515, rgba(47, 37, 21, 0.8), #2f2515); }
+
+footer p {
+  color: white;
+  font-size: 13px; }
