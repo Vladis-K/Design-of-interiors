@@ -1,23 +1,46 @@
-$small: 320px
-$large: 1024px
+$extra-small: 320px
+$small: 768px
+$medium: 970px
+$large: 1200px
 
 @mixin respond-to($media)
   @if $media == handhelds
-    @media only screen and (max-width: $small)
+    @media only screen and (max-width: $extra-small)
+      @content
+
+  @else if $media == small-screens
+    @media only screen and (min-width: $extra-small + 1) and (max-width: $small - 1)
       @content
 
   @else if $media == medium-screens
-    @media only screen and (min-width: $small + 1) and (max-width: $large - 1)
+    @media only screen and (min-width: $small) and (max-width: $large - 1)
       @content
 
   @else if $media == wide-screens
     @media only screen and (min-width: $large)
       @content
 
+//Media parameters
+
 @include respond-to(handhelds)
-  [class~=backgroundHide]
+  a.navbar-brand img
+    position: absolute
+    width: 100px
+  [class~=extra]
     display: none
+
+@include respond-to(small-screens)
+  [class~=extra]
+    display: none
+
+
 @include respond-to(medium-screens)
   [class~=backgroundHide]
     display: none
+
 @include respond-to(wide-screens)
+  .section-2
+    height: auto
+
+
+

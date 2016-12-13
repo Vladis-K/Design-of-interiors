@@ -31,7 +31,7 @@
 <body>
 
   <nav class="navbar">
-    <div class="container">
+    <div class="container-fluid">
 
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -49,7 +49,13 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#works">Works</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#switch-language">En</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">En<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Pl</a></li>
+                    <li><a href="#">Ukr</a></li>
+                </ul>
+            </li>
         </ul>
       </div>
 
@@ -59,119 +65,184 @@
   <header id="lead">
     <div class="shade">
        <div class="container">
-          <div class="row ">
+          <div class="row text-center">
             <div class="col-md-12">
-              <h1 class="text-center">Design of interiors</h1>
+              <h1>Interior Design</h1>
+              <p>creative ideas and innovations for your house</p>
             </div>
           </div>
         </div>
     </div>
   </header>
 
+
   <section id="description">
     <div class="container">
-      <div class="row lead-cubes text-center">
+      <div class="row lead-cubes">
 
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-          <div class="shade-1">
-            <div class="lead-table lead-1">
-             <p class="cubetxt">Пакет "Минимальный"</p>
-             <p>Цена 10 грн/м2</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-          <div class="shade-2">
-            <div class="lead-table lead-2">
-              <p class="cubetxt">Пакет "Бюджетный"</p>
-               <p>Цена 20 грн/м2</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-          <div class="shade-3">
-            <div class="lead-table lead-3">
-              <p class="cubetxt">Пакет "Все включено"</p>
-              <p>Цена 30 грн/м2</p>
-            </div>
-          </div>
-        </div>
 
       </div>
     </div>
   </section>
 
- <div class="container about-us">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-           <p class="main-sign text-center">About us</p>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit molestias neque in, dolorem autem minus perspiciatis, optio possimus quidem repellat quas nam dolor, sed similique totam nobis suscipit quos veniam. </p>
-           </div>
+  <!--ABOUT ME-->
+     <div class="container-fluid" >
+      <div class="row" id="about">
+        <div class="about-me col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+           <p class="main-sign text-center">About me</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+               Odit molestias neque in, dolorem autem minus perspiciatis,
+               optio possimus quidem repellat quas nam dolor, sed similique totam nobis suscipit quos veniam.
+           </p>
+        </div>
       </div>
- </div>
+    </div>
+
+
+  <!--END ABOUT ME-->
+    <div class="container">
+         <div class="row first" id="services">
+            <div class="col-md-12 ">
+
+             <div class="row text-center ">
+                 <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+                     <p class="main-sign">Services</p>
+                     <p>Design/interior/furniture</p>
+                 </div>
+             </div>
+
+             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8 rect-short">
+                 <div class="rectangular-info img-responsive">
+                     <p>Design quality</p>
+                     <p class="extra-small">
+                         <i class="fa fa-clone" aria-hidden="true"></i>
+                         <span class="extra-small">Basic pricing</span>
+                     </p>
+                     <div class="move-left">
+                         <a href="">Find out more</a>
+                         <a href="" class="fa fa-long-arrow-right" aria-hidden="true"></a>
+                         <a href="" class="fa fa-heart-o" aria-hidden="true"></a>
+                     </div>
+                 </div>
+             </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8 rect-short">
+                    <div class="rectangular-info img-responsive">
+                        <p>Design quality</p>
+                        <p class="extra-small">
+                            <i class="fa fa-clone" aria-hidden="true"></i>
+                            <span class="extra-small">Pro</span>
+                        </p>
+                        <div class="move-left">
+                            <a href="">Find out more</a>
+                            <a href="" class="fa fa-long-arrow-right" aria-hidden="true"></a>
+                            <a href="" class="fa fa-heart-o" aria-hidden="true"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-8 rect-short">
+                    <div class="rectangular-info img-responsive">
+                        <p>Design quality</p>
+                        <p class="extra-small">
+                            <i class="fa fa-clone" aria-hidden="true"></i>
+                            <span class="extra-small">Premium</span>
+                        </p>
+                        <div class="move-left">
+                            <a href="">Find out more</a>
+                            <a href="" class="fa fa-long-arrow-right" aria-hidden="true"></a>
+                            <a href="" class="fa fa-heart-o" aria-hidden="true"></a>
+                        </div>
+                    </div>
+                </div>
+          </div>
+         </div>
+     </div>
+
 
 <div>
   <img class="sect-3" src="img/middle-1.jpg">
 </div>
 
 
-  <div class="container portfolio">
-      <div class="row">
+  <div class="container portfolio" id="works">
+      <div class="row text-center">
         <div class="col-md-12 allpictures">
             <div class="col-md-8 col-md-offset-2">
               <p class="main-sign text-center">Resent works</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta illo, suscipit ipsam unde, maiores aspernatur.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dicta illo, suscipit ipsam unde, maiores aspernatur.
+              </p>
           </div>
-            <div class="col-md-3 col-sm-6">
-              <a href="">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <img src="img/11.jpg" class="img-responsive" alt="img">
-              </a>
+                <div class="caption">
+                    <p>Kitchen</p>
+                </div>
             </div>
-             <div class="col-md-3 col-sm-6">
+             <div class="col-xs-12 col-sm-6 col-md-4">
                 <img src="img/12.jpg" class="img-responsive" alt="img">
+                 <div class="caption">
+                     <p>Kitchen</p>
+                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <img src="img/13.jpg" class="img-responsive" alt="img">
+                <div class="caption">
+                    <p>Kitchen</p>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <img src="img/14.jpg" class="img-responsive" alt="img">
+                <div class="caption">
+                    <p>Kitchen</p>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <img src="img/15.jpg" class="img-responsive" alt="img">
+                <div class="caption">
+                    <p>Kitchen</p>
+                </div>
             </div>
-             <div class="col-md-3 col-sm-6">
+             <div class="col-xs-12 col-sm-6 col-md-4">
                 <img src="img/16.jpg" class="img-responsive" alt="img">
+                 <div class="caption">
+                     <p>Kitchen</p>
+                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <img src="img/17.jpg" class="img-responsive" alt="img">
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <img src="img/18.jpg" class="img-responsive" alt="img">
-            </div>           
-        </div>
-       <button type="button" class="btn btn-primary sharp">Load more:</button>
-   </div>
+
+          </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-2 col-md-2 col-sm-2">
+                  <button type="button" class="btn btn-primary sharp">Load more:</button>
+              </div>
+          </div>
+      </div>
+
+
+
+</div>
+
 </div>
 
 <div>
   <img class="sect-3" src="img/middle-2.jpg">
 </div>
 
-<div class="container responds">
+  <!--Responds content-->
+<div class="container responds" id="contact">
           <p class="main-sign text-center">Responds:</p>
         <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+              <p>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></p>
             </div>
             <div class="item">
-              <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+              <p>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></p>
             </div>
             <div class="item">
-              <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+              <p>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></p>
             </div>
           </div>
 
@@ -191,17 +262,25 @@
 <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-6">
-          <p>Address</p>
-          <p>Telephone</p>
-          <p>Skype</p>
+        <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+          <p>Address: Kyiv, Ukraine</p>
+          <p><abbr title="Telephone">Telephone:</abbr> +38 067-108-109-3</p>
         </div>
-        <div class="col-md-6 col-sm-6">
-          <p>Follow us</p>
-          <p>Facebook</p>
-          <p>Twitter</p>
+        <div class="col-xs-12 col-md-4  col-sm-4 col-lg-4">
+          <p>Skype: K.Malinovski</p>
+          <p><a href="">E-mail: K.Malinovski@gmail.com</a></p>
         </div>
-      </div>  
+        <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+          <p><a href="">Facebook</a></p>
+          <p><a href="">Twitter</a></p>
+        </div>
+      </div>
+
+        <div class="row" id="web4evo">
+            <div class="col-xs-12 col-md-12 col-sm-12">
+               <p class="text-center"> <a href="//web4evo.com" target="_blank"> © 2016 All Rights Reserved. Made by Web4evo.</a></p>
+            </div>
+        </div>
     </div>
   </footer>
 

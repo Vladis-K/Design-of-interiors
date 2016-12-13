@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="02496d4c-bbe9-4b05-b9d7-8b24f9ab24ed" name="Vladys" url="http://146.0.83.64">
+        <fileTransfer host="146.0.83.64" port="222" rootFolder="/D/FRONT-END" accessType="SFTP" password="dfebdfdcdfcfdfc3dfd8dfc5df98df98df9bdf98df98df98df9bdf98" username="Vladys-k">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
