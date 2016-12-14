@@ -26,17 +26,18 @@ $large: 1200px
   a.navbar-brand img
     position: absolute
     width: 100px
+  [class~=extra-small]
+    display: none
   [class~=extra]
     display: none
 
 @include respond-to(small-screens)
-  [class~=extra]
-    display: none
-
+  .section-2
+    height: auto
 
 @include respond-to(medium-screens)
-  [class~=backgroundHide]
-    display: none
+  .section-2
+    height: auto
 
 @include respond-to(wide-screens)
   .section-2

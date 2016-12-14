@@ -9,7 +9,7 @@ body
 	margin: 0
 	padding: 0
 
-	
+
 section
 	position: relative
 
@@ -107,20 +107,61 @@ header .header-text
 	background-size: cover
 	background-repeat: repeat
 
-//.lead-1
-//	background-image: url('../img/01.jpg')
-//	height: 10vh
-//	z-index: -1
-//
-//.lead-2
-//	background-image: url('../img/02.jpg')
-//	height: 10vh
-//	z-index: -1
-//
-//.lead-3
-//	background-image: url('../img/03.jpg')
-//	height: 10vh
-//	z-index: -1
+//Pricing
+
+.rect-short
+	position: relative
+	max-width: 350px
+	height: 380px
+	margin: 20px
+
+div.first
+	div.rect-short:nth-child(1)
+		background-image: url("../img/01.jpg")
+		background-repeat: no-repeat
+		position: relative
+		overflow: hidden
+	div.rect-short:nth-child(2)
+		background-image: url("../img/02.jpg")
+		background-repeat: no-repeat
+		position: relative
+		overflow: hidden
+	div.rect-short:nth-child(3)
+		background-image: url("../img/03.jpg")
+		background-repeat: no-repeat
+		position: relative
+		overflow: hidden
+
+
+div.rectangular-info
+	p:nth-child(2)
+		font-size: 16px
+		line-height: 1.6
+	div a
+		color: $main-color
+	div a:nth-child(1)
+		font-weight: 600
+		text-decoration: none
+		margin-right: 10px
+	div a:nth-child(2)
+		float: right
+		margin-right: 5px
+		text-decoration: none
+	div a:nth-child(3):hover
+		color: #FFDD00
+
+.move-left
+	background-color: rgba(0,0,0,0.5)
+	position: absolute
+	top: 250px
+	right: -800px
+	width: 93%
+	margin: 10px
+	padding: 10px
+	transition: 1.2s ease
+
+.rect-short:hover>.rectangular-info .move-left
+	right: 0
 
 //Container ABOUT
 
@@ -129,7 +170,7 @@ div#about
 
 .shade
 	background-color: rgba(0,0,0,.5)
-	z-index: 0
+	z-index: 10
 
 .shade-pict
 	background-color: rgba(255, 206, 68,.8)
@@ -160,7 +201,7 @@ p.main-sign
 	padding: 0
 
 div.rectangular-info
-	padding-bottom: 50px
+	padding-bottom: 10px
 
 .portfolio
 	margin: 50px auto
@@ -192,18 +233,22 @@ div.rectangular-info
 
 //Carousel
 
-.carousel-control.right, .carousel-control.left
-	background-image: none
-	color: #f4511e
-
-.carousel-indicators li
-	border-color: #f4511e
-
 .responds
+	position: relative
 	margin: 180px auto
 
+ol.carousel-indicators
+	position: absolute
+	top: 100px
+
+.carousel-indicators li
+	width: 10px
+	height: 10px
+	border-radius: 0
+	border-color: rgba(47,37,21,.7)
+
 .carousel-indicators li.active
-	background-color: #f4511e
+	background-color: rgba(47,37,21,.7)
 
 .item p
 	font-size: 19px
@@ -224,48 +269,6 @@ footer p
 #web4evo
 	margin: 40px 0 0 0
 
-.rectangular-info
-	background-image: url("../img/01.jpg")
-	background-repeat: no-repeat
-	max-width: 500px
-	height: 380px
-	position: relative
-	overflow: hidden
-	margin: 50px 0
-
-.rectangular-info
-	p:nth-child(1)
-		font-weight: 300
-	p:nth-child(2)
-		font-size: 16px
-		line-height: 1.6
-	div a
-		color: $main-color
-	div a:nth-child(1)
-		font-weight: 600
-		text-decoration: none
-		margin-right: 10px
-	div a:nth-child(2)
-		text-decoration: none
-	div a:nth-child(3)
-		float: right
-		margin-right: 15px
-		text-decoration: none
-	div a:nth-child(3):hover
-		color: #FFDD00
-
-.move-left
-	background-color: rgba(0,0,0,0.5)
-	position: absolute
-	top: 250px
-	right: -800px
-	width: 90%
-	margin: 10px
-	padding: 10px
-	transition: 1s ease
-
-.rect-short:hover>.rectangular-info .move-left
-	right: 0
 
 
 
