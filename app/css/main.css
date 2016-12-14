@@ -59,18 +59,20 @@ header {
   color: white;
   background: url("../img/header.jpg");
   background-size: cover;
+  background-position: center;
   z-index: -1; }
 
 h1 {
-  margin-top: 40%;
+  margin-top: 30%;
   text-transform: uppercase;
-  font-size: 40px;
-  color: #ffce44;
-  font-weight: 300; }
+  font-size: 70px;
+  color: #4eda47;
+  font-weight: 500; }
 
 h1 + p {
-  color: #ffce44;
-  font-style: italic; }
+  color: #4bd043;
+  font-style: italic;
+  font-size: 29px; }
 
 header .table {
   display: table;
@@ -104,11 +106,17 @@ header .header-text {
   background-size: cover;
   background-repeat: repeat; }
 
+#services {
+  margin: 50px 0; }
+
 .rect-short {
   position: relative;
   max-width: 350px;
   height: 380px;
   margin: 20px; }
+
+div.first {
+  margin-bottom: 80px; }
 
 div.first div.rect-short:nth-child(1) {
   background-image: url("../img/01.jpg");
@@ -128,12 +136,15 @@ div.first div.rect-short:nth-child(3) {
   position: relative;
   overflow: hidden; }
 
+div.rectangular-info p:nth-child(1) {
+  font-size: 16px; }
+
 div.rectangular-info p:nth-child(2) {
   font-size: 16px;
   line-height: 1.6; }
 
 div.rectangular-info div a {
-  color: #ffce44; }
+  color: #4bd043; }
 
 div.rectangular-info div a:nth-child(1) {
   font-weight: 600;
@@ -151,7 +162,7 @@ div.rectangular-info div a:nth-child(3):hover {
 .move-left {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 250px;
+  top: 300px;
   right: -800px;
   width: 93%;
   margin: 10px;
@@ -163,7 +174,8 @@ div.rectangular-info div a:nth-child(3):hover {
   right: 0; }
 
 div#about {
-  background-color: #F6F6F6; }
+  background-color: #F6F6F6;
+  margin-top: 250px 0; }
 
 .shade {
   background-color: rgba(0, 0, 0, 0.5);
@@ -265,3 +277,33 @@ footer p {
 
 #web4evo {
   margin: 40px 0 0 0; }
+
+.appearance {
+  visibility: hidden; }
+
+.slide {
+  -webkit-animation-name: slide;
+  animation-name: slide;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  visibility: visible; }
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+    transform: translateY(70%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%); } }
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+    transform: translateY(70%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%); } }
