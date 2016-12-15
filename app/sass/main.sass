@@ -1,5 +1,5 @@
 $primary-color: #44361F
-$text-color: #333
+$text-color: #818181
 $main-color: rgb(75, 208, 67)
 
 body
@@ -14,11 +14,11 @@ section
 	position: relative
 
 p
-	font-size: 18px
+	font-size: 16px
 	line-height: 1.5
 	color: $text-color
 	z-index: 3
-	color: #818181
+	color: $text-color
 
 img.sect-3
 	width: 100%
@@ -34,17 +34,11 @@ nav.navbar
 	width: 100%
 	transition: all 0.3s ease
 
-nav.navbar-fixed-top
-	z-index: 5
-	top: 0
-	padding: 25px 0
-	opacity: 0
-	background: white
-	box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.05)
-
 a.navbar-brand img
 	position: absolute
+	left: 10%
 	width: 200px
+
 
 span.icon-bar
 	background-color: #000000
@@ -114,69 +108,39 @@ header .header-text
 #services
 	margin: 50px 0
 
-.rect-short
-	position: relative
-	max-width: 350px
-	height: 380px
-	margin: 20px
-
 div.first
 	margin-bottom: 80px
 
-div.first
-	div.rect-short:nth-child(1)
-		background-image: url("../img/01.jpg")
-		background-repeat: no-repeat
-		position: relative
-		overflow: hidden
-	div.rect-short:nth-child(2)
-		background-image: url("../img/02.jpg")
-		background-repeat: no-repeat
-		position: relative
-		overflow: hidden
-	div.rect-short:nth-child(3)
-		background-image: url("../img/03.jpg")
-		background-repeat: no-repeat
-		position: relative
-		overflow: hidden
+.first img, .first div
+	margin: 0 auto
 
-div.rectangular-info
-	p:nth-child(1)
-		font-size: 16px
-	p:nth-child(2)
-		font-size: 16px
-		line-height: 1.6
-	div a
-		color: $main-color
-	div a:nth-child(1)
-		font-weight: 600
-		text-decoration: none
-		margin-right: 10px
-	div a:nth-child(2)
-		float: right
-		margin-right: 5px
-		text-decoration: none
-	div a:nth-child(3):hover
-		color: #FFDD00
+div[class*="price"]
+	margin-bottom: 10px
 
-.move-left
-	background-color: rgba(0,0,0,0.5)
-	position: absolute
-	top: 300px
-	right: -800px
-	width: 93%
-	margin: 10px
+.caption
+	background-color: rgba(0,0,0,.2)
+	height: 40px
+	width: auto
+	position: relative
 	padding: 10px
-	transition: 1.2s ease
+	margin-bottom: 25px
 
-.rect-short:hover>.rectangular-info .move-left
-	right: 0
+.caption
+	a:nth-child(1), a:nth-child(2)
+		color: $main-color
+		font-size: 16px
+		font-weight: 400
+		text-decoration: none
+	a:nth-child(2)
+		float: right
+
+.fa-clone
+	text-indent: 10px
 
 //Container ABOUT
 
 div#about
 	background-color: #F6F6F6
-	margin-top: 250px 0
 
 .shade
 	background-color: rgba(0,0,0,.5)
@@ -220,22 +184,20 @@ div.rectangular-info
 	margin: 10px
 
 .btn
-	padding: 14px 24px
+	padding: 5px 15px
 	border: 0 none
-	font-weight: 700
-	letter-spacing: 1px
+	font-weight: 300
+	color: #ffffff
 	text-transform: uppercase
+	background-color: rgb(75, 208, 67)
 
-.btn:focus, .btn:active:focus, .btn.active:focus
-	outline: 0 none
-
-.btn-primary
-	background: #D79E56
+.btn:hover, .btn:active
+	background-color: #41b239
 	color: #ffffff
 
-.btn-primary:active, .btn-primary.active
-	background: #FFCE44
-	box-shadow: none
+.btn:visited
+	background-color: #3fafff
+	color: #ffffff
 
 .sharp
 	border-radius: 0
@@ -252,13 +214,13 @@ ol.carousel-indicators
 	top: 100px
 
 .carousel-indicators li
-	width: 10px
-	height: 10px
+	width: 11px
+	height: 11px
 	border-radius: 0
-	border-color: rgba(47,37,21,.7)
+	border-color: $main-color
 
 .carousel-indicators li.active
-	background-color: rgba(47,37,21,.7)
+	background-color: $main-color
 
 .item p
 	font-size: 19px

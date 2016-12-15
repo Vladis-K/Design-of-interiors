@@ -28,8 +28,6 @@ $large: 1200px
     width: 100px
   [class~=extra-small]
     display: none
-  [class~=extra]
-    display: none
   h1
     margin-top: 50%
     text-transform: uppercase
@@ -40,6 +38,7 @@ $large: 1200px
     color: #4BD043
     font-style: italic
     font-size: 15px
+
 
 @include respond-to(small-screens)
   h1
@@ -48,16 +47,21 @@ $large: 1200px
     font-size: 40px
     color: #4eda47
     font-weight: 500
+  [class~=extra]
+    display: none
   h1+p
     color: #4BD043
     font-style: italic
     font-size: 15px
   .section-2
     height: auto
+  .caption
+    max-width: 370px
 
 @include respond-to(medium-screens)
   .section-2
     height: auto
+
 
 @include respond-to(wide-screens)
   .section-2
