@@ -25,9 +25,9 @@ jQuery(document).ready(function(){
     });
 });
 
-    setTimeout(gogo, 6000);
+    // setTimeout(gogo, 1200);
 
-    function gogo(){
+    // function gogo(){
         var b = document.getElementById("myButton");
         b.addEventListener('click', uploadPictures, false);
 
@@ -61,7 +61,6 @@ jQuery(document).ready(function(){
                 document.getElementById("download").innerHTML = out;
             }
         }
-    };
+    // };
 
-    console.log(document.location)
-    console.log(window.history)
+
