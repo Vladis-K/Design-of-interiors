@@ -59,6 +59,7 @@ jQuery(document).ready(function(){
                     return false
                 }
                 document.getElementById("download").innerHTML = out;
+                b.style.visibility = "hidden";
             }
         }
     // };
