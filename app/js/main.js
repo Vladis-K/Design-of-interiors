@@ -15,6 +15,7 @@ jQuery(document).ready(function(){
     });
   });
     
+    //Smooth scrolling
     $("#menu").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
@@ -25,16 +26,17 @@ jQuery(document).ready(function(){
     });
 });
 
-    // setTimeout(gogo, 1200);
 
-    // function gogo(){
+
+    setTimeout(gogo, 1200);
+
+    function gogo(){
         var b = document.getElementById("myButton");
         b.addEventListener('click', uploadPictures, false);
 
         function uploadPictures() {
             var xhr = new XMLHttpRequest();
             xhr.withCredentials = true;
-
             xhr.onreadystatechange = function () {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     allTogether(JSON.parse(xhr.responseText));
@@ -49,7 +51,7 @@ jQuery(document).ready(function(){
                 var out = "";
                 var allData = getData.response.length;
                 //console.log(allData);
-                for (var i = 0; i < allData; i++) {
+                for (var i = 6; i < allData; i++) {
                     out += '<div class="col-xs-12 col-sm-6 col-md-4">';
                     out += '<img src="' + getData.response[i].image_medium + '"' + ' class="img-responsive" alt=" ' + getData.response[i].title + ' ">';
                     out += '<div class="depiction">' + '<p>' + getData.response[i].description + ', ' + getData.response[i].title + '</p>';
@@ -62,6 +64,6 @@ jQuery(document).ready(function(){
                 b.style.visibility = "hidden";
             }
         }
-    // };
+    };
 
 

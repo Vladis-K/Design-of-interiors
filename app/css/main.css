@@ -231,13 +231,12 @@ ol.carousel-indicators {
 
 footer {
   padding: 20px 0;
-  background: red;
-  background: -webkit-gradient(linear, left top, right top, from(#5e5551), color-stop(rgba(94, 85, 81, 0.8)), to(#5e5551));
-  background: -webkit-linear-gradient(left, #5e5551, rgba(94, 85, 81, 0.8), #5e5551);
-  background: linear-gradient(to right, #5e5551, rgba(94, 85, 81, 0.8), #5e5551); }
+  background-image: url("../img/footer.jpg");
+  background-position: center;
+  width: 100%; }
 
 footer p {
-  color: white;
+  color: #4bd043;
   font-size: 13px; }
 
 #web4evo {
