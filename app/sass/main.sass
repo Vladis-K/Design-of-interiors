@@ -12,12 +12,12 @@ body
 section
 	position: relative
 
+
 p
 	font-size: 16px
 	line-height: 1.5
 	color: $text-color
 	z-index: 3
-	color: $text-color
 
 img.sect-3
 	width: 100%
@@ -195,7 +195,9 @@ div.rectangular-info
 .allpictures div img
 	margin: 10px
 
-.btn, .btn:link
+//Buttons
+
+.btn, .btn:link, .btn-primary:focus
 	padding: 5px 15px
 	border: 0 none
 	font-weight: 300
@@ -244,7 +246,7 @@ ol.carousel-indicators
 footer
 	padding: 20px 0
 	background-image: url("../img/footer.jpg")
-	background-position: center
+	background-position: center 0
 	width: 100%
 	//background: linear-gradient(to right, rgba(94, 85, 81, 1), rgba(94, 85, 81, .8), rgba(94, 85, 81, 1) )
 
@@ -254,6 +256,14 @@ footer p
 
 #web4evo
 	margin: 40px 0 0 0
+
+#web4evo
+	p
+		font-weight: 500
+	span
+		color: $text-color
+	span  span
+		color: #ff0000
 
 //Slide animation
 

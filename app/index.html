@@ -92,9 +92,15 @@
   </div>
 
   <!--Modal BASIC-->
+
   <div class="container">
-      <div class="modal fade basic-modal" id="myModal" role="dialog">
-          <div class="modal-dialog">
+    <div id="content">
+
+    </div>
+  </div>
+
+      <div class="modal fade" id="modalBasic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
               <!-- Modal content-->
               <div class="modal-content">
                   <div class="modal-header">
@@ -143,8 +149,9 @@
               </div>
           </div>
       </div>
-  </div>
+
   <!--END  Modal BASIC-->
+
 
 
   <!--SERVICES-->
@@ -153,12 +160,11 @@
       <div class="row text-center appearance" id="services">
           <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
               <p class="main-sign">Services</p>
-              <p>Design/interior/furniture</p>
+              <p>I provide Design Interior/ selection of furniture / author's supervision</p>
           </div>
       </div>
 
       <div class="row first appearance">
-
           <div class="col-xs-12 col-sm-4 col-md-4">
               <div class="price extra">
                   <i class="fa fa-clone" aria-hidden="true"></i>
@@ -166,7 +172,7 @@
               </div>
               <img src="../img/01.jpg" class="img-responsive" alt="">
               <div class="caption">
-                  <a href="" data-target=".basic-modal" data-toggle="modal">Find out more
+                  <a href="" id="modal_btn" data-toggle="modal" data-target="#modalBasic">Find out more
                       <span class="fa fa-hand-pointer-o" aria-hidden="true"></span>
                   </a>
               </div>
@@ -187,7 +193,6 @@
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4">
-
               <div class="price extra">
                   <i class="fa fa-clone" aria-hidden="true"></i>
                   <span>Premium package</span>
@@ -327,7 +332,9 @@
 
         <div class="row" id="web4evo">
             <div class="col-xs-12 col-md-12 col-sm-12">
-               <p class="text-center"> <a href="//web4evo.com" target="_blank"> © 2016 All Rights Reserved. Made by Web4evo.</a></p>
+               <p class="text-center"><a href="//web4evo.com" target="_blank">© 2016 All Rights Reserved. Made by
+                   <span >Web<span>4</span>evo.</span></a>
+               </p>
             </div>
         </div>
     </div>

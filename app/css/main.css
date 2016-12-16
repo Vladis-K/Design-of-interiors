@@ -12,8 +12,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   color: #818181;
-  z-index: 3;
-  color: #818181; }
+  z-index: 3; }
 
 img.sect-3 {
   width: 100%; }
@@ -184,7 +183,7 @@ div.rectangular-info {
 .allpictures div img {
   margin: 10px; }
 
-.btn, .btn:link {
+.btn, .btn:link, .btn-primary:focus {
   padding: 5px 15px;
   border: 0 none;
   font-weight: 300;
@@ -232,7 +231,7 @@ ol.carousel-indicators {
 footer {
   padding: 20px 0;
   background-image: url("../img/footer.jpg");
-  background-position: center;
+  background-position: center 0;
   width: 100%; }
 
 footer p {
@@ -241,6 +240,15 @@ footer p {
 
 #web4evo {
   margin: 40px 0 0 0; }
+
+#web4evo p {
+  font-weight: 500; }
+
+#web4evo span {
+  color: #818181; }
+
+#web4evo span span {
+  color: #ff0000; }
 
 .appearance {
   visibility: hidden; }
