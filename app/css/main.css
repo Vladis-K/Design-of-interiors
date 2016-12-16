@@ -18,33 +18,36 @@ p {
 img.sect-3 {
   width: 100%; }
 
-a {
-  text-decoration: none;
+.main-nav li a:link, .main-nav li a:visited {
+  display: block;
   color: #000;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  background-color: transparent;
+  text-decoration: none;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease; }
+
+.nav li a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: #4bd043;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease; }
 
 nav.navbar {
   position: absolute;
   z-index: 2;
-  width: 100%;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  width: 100%; }
 
-a.navbar-brand img {
+.navbar-brand img {
   position: absolute;
   left: 10%;
   width: 200px; }
 
+.navbar-header {
+  height: 80px; }
+
 span.icon-bar {
   background-color: #000000; }
-
-ul.nav li a:hover, ul.nav li a:after {
-  background-color: transparent;
-  text-decoration: none;
-  -webkit-text-decoration-color: #0000fe;
-  text-decoration-color: #0000fe;
-  content: ""; }
 
 header {
   position: relative;
@@ -108,7 +111,7 @@ div.first {
   margin: 0 auto; }
 
 div[class*="price"] {
-  margin-bottom: 10px; }
+  margin: 15px 0 5px 0; }
 
 .caption {
   background-color: rgba(0, 0, 0, 0.2);
@@ -121,7 +124,7 @@ div[class*="price"] {
 .caption a:nth-child(1), .caption a:nth-child(2) {
   color: #4bd043;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none; }
 
 .caption a:nth-child(2) {
@@ -129,6 +132,13 @@ div[class*="price"] {
 
 .fa-clone {
   text-indent: 10px; }
+
+.modal-content {
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+
+.modal-footer, .modal-header {
+  border: none; }
 
 div#about {
   background-color: #F6F6F6; }
@@ -139,9 +149,10 @@ div#about {
 
 .shade-pict {
   background-color: rgba(255, 206, 68, 0.8);
-  -webkit-transition: background-color 0.8s linear 0.1s;
-  transition: background-color 0.8s linear 0.1s;
-    transition-animation-name: rising;
+  -webkit-transition: background-color .8s linear .1s;
+  transition: background-color .8s linear .1s;
+  -webkit-animation-name: rising;
+  animation-name: rising;
   z-index: 0; }
 
 .shade-pict:hover {

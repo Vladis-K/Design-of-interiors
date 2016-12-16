@@ -9,7 +9,6 @@ body
 	margin: 0
 	padding: 0
 
-
 section
 	position: relative
 
@@ -23,31 +22,34 @@ p
 img.sect-3
 	width: 100%
 
-a
-	text-decoration: none
+.main-nav li a:link, .main-nav li a:visited
+	display: block
 	color: #000
-	transition: all 0.3s ease
+	background-color: transparent
+	text-decoration: none
+	transition: all .4s ease
+
+.nav li a:hover
+	text-decoration: none
+	background-color: transparent
+	color: $main-color
+	transition: all .4s ease
 
 nav.navbar
 	position: absolute
 	z-index: 2
 	width: 100%
-	transition: all 0.3s ease
 
-a.navbar-brand img
+.navbar-brand img
 	position: absolute
 	left: 10%
 	width: 200px
 
+.navbar-header
+	height: 80px
 
 span.icon-bar
 	background-color: #000000
-
-ul.nav li a:hover, ul.nav li a:after
-	background-color: transparent
-	text-decoration: none
-	text-decoration-color: #0000fe
-	content: ""
 
 //Header
 
@@ -115,7 +117,7 @@ div.first
 	margin: 0 auto
 
 div[class*="price"]
-	margin-bottom: 10px
+	margin: 15px 0 5px 0
 
 .caption
 	background-color: rgba(0,0,0,.2)
@@ -129,13 +131,22 @@ div[class*="price"]
 	a:nth-child(1), a:nth-child(2)
 		color: $main-color
 		font-size: 16px
-		font-weight: 400
+		font-weight: 500
 		text-decoration: none
 	a:nth-child(2)
 		float: right
 
 .fa-clone
 	text-indent: 10px
+
+//Modal content
+
+.modal-content
+	border-radius: 0
+
+.modal-footer, .modal-header
+	border: none
+
 
 //Container ABOUT
 
@@ -149,7 +160,7 @@ div#about
 .shade-pict
 	background-color: rgba(255, 206, 68,.8)
 	transition: background-color .8s linear .1s
-		animation-name: rising
+	animation-name: rising
 	z-index: 0
 
 .shade-pict:hover
