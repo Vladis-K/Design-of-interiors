@@ -48,7 +48,7 @@ jQuery(document).ready(function(){
             function allTogether(getData) {
                 var out = "";
                 var allData = getData.response.length;
-                console.log(allData);
+                //console.log(allData);
                 for (var i = 0; i < allData; i++) {
                     out += '<div class="col-xs-12 col-sm-6 col-md-4">';
                     out += '<img src="' + getData.response[i].image_medium + '"' + ' class="img-responsive" alt=" ' + getData.response[i].title + ' ">';

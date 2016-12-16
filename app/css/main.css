@@ -126,8 +126,10 @@ div[class*="price"] {
   font-weight: 500;
   text-decoration: none; }
 
-.caption a:nth-child(2) {
-  float: right; }
+.caption span:nth-child(1) {
+  float: right;
+  display: block;
+  margin-top: 3px; }
 
 .fa-clone {
   text-indent: 10px; }
@@ -230,9 +232,9 @@ ol.carousel-indicators {
 footer {
   padding: 20px 0;
   background: red;
-  background: -webkit-gradient(linear, left top, right top, from(#2f2515), color-stop(rgba(47, 37, 21, 0.8)), to(#2f2515));
-  background: -webkit-linear-gradient(left, #2f2515, rgba(47, 37, 21, 0.8), #2f2515);
-  background: linear-gradient(to right, #2f2515, rgba(47, 37, 21, 0.8), #2f2515); }
+  background: -webkit-gradient(linear, left top, right top, from(#5e5551), color-stop(rgba(94, 85, 81, 0.8)), to(#5e5551));
+  background: -webkit-linear-gradient(left, #5e5551, rgba(94, 85, 81, 0.8), #5e5551);
+  background: linear-gradient(to right, #5e5551, rgba(94, 85, 81, 0.8), #5e5551); }
 
 footer p {
   color: white;
