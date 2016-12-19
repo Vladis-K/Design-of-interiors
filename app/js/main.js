@@ -1,37 +1,43 @@
-jQuery(document).ready(function(){
+jQuery(document).ready(function() {
 
-  // $("#modal_btn").click(function(){
-  //   $("#modalBasic").modal("toggle");
-  // });
-    
-  //Scroll appearance
-  $(window).scroll(function() {
-    $(".appearance").each(function(){
-      var positionElements = $(this).offset().top;
-      var windowTop = $(window).scrollTop();
-      if (positionElements < windowTop + 600) {
-        $(this).addClass("slide");
-      }
+    // $("#modal_btn").click(function(){
+    //   $("#modalBasic").modal("toggle");
+    // });
+
+    //Scroll appearance
+    $(window).scroll(function () {
+        $(".appearance").each(function () {
+            var positionElements = $(this).offset().top;
+            var windowTop = $(window).scrollTop();
+            if (positionElements < windowTop + 600) {
+                $(this).addClass("slide");
+            }
+        });
     });
-  });
 
     //Smooth scrolling
-    $("#menu").on("click","a", function (event) {
+
+    var menu = document.getElementById("menu");
+
+
+    $("#menu").on("click", "a", function (event) {
         event.preventDefault();
-        var id  = $(this).attr('href'),
+        var id = $(this).attr('href'),
             top = $(id).offset().top;
         $('body,html').animate({
             scrollTop: top
         }, 2000);
     });
-});
+
+})
+
 
 // var a = document.getElementById("modal_btn");
 // a.addEventListener('click', uploadModal, false);
 //
 // function uploadModal() {
 //
-//     var xhr = new XMLHttpRequest();
+//     let xhr = new XMLHttpRequest();
 //     console.log(xhr.status)
 //
 //     xhr.onreadystatechange = function() {
@@ -68,20 +74,25 @@ jQuery(document).ready(function(){
             function allTogether(getData) {
                 var out = "";
                 var allData = getData.response.length;
-                //console.log(allData);
-                for (var i = 6; i < allData; i++) {
+                console.log(allData);
+                // var index = 0;
+                top: for (var i = 0; i < allData; i++) {
+                    getData.response[i];
+                    console.log(getData.response[i]);
+                    // if (index % 4 == 0){
+                    //     break top;
+                    // }
                     out += '<div class="col-xs-12 col-sm-6 col-md-4">';
                     out += '<img src="' + getData.response[i].image_medium + '"' + ' class="img-responsive" alt=" ' + getData.response[i].title + ' ">';
                     out += '<div class="depiction">' + '<p>' + getData.response[i].description + ', ' + getData.response[i].title + '</p>';
                     out += '</div>' + '</div>'
+
                 }
-                if (allData == (allData % i == 4)){
-                    return false
-                }
+
                 document.getElementById("download").innerHTML = out;
                 b.style.visibility = "hidden";
+
             }
         }
     // };
-
 
