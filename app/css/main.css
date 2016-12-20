@@ -27,7 +27,7 @@ img.sect-img {
 .nav li a:hover, p a:hover {
   text-decoration: none;
   background-color: transparent;
-  color: #4bd043;
+  color: #dddddd;
   -webkit-transition: all .4s ease;
   transition: all .4s ease; }
 
@@ -59,11 +59,11 @@ h1 {
   margin-top: 30%;
   text-transform: uppercase;
   font-size: 70px;
-  color: #4eda47;
+  color: #dddddd;
   font-weight: 500; }
 
 h1 + p {
-  color: #4bd043;
+  color: #dddddd;
   font-style: italic;
   font-size: 29px; }
 
@@ -112,7 +112,7 @@ div[class*="price"] {
   margin: 15px 0 5px 0; }
 
 .caption {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #828282;
   height: 40px;
   width: auto;
   position: relative;
@@ -120,7 +120,7 @@ div[class*="price"] {
   margin-bottom: 25px; }
 
 .caption a:nth-child(1), .caption a:nth-child(2) {
-  color: #4bd043;
+  color: #dddddd;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none; }
@@ -192,10 +192,10 @@ div.rectangular-info {
   font-weight: 300;
   color: #ffffff;
   text-transform: uppercase;
-  background-color: #4bd043; }
+  background-color: #828282; }
 
 .btn:hover, .btn:active {
-  background-color: #41b239;
+  background-color: #646464;
   color: #ffffff; }
 
 .btn:visited {
@@ -223,10 +223,10 @@ ol.carousel-indicators {
   height: 11px;
   -webkit-border-radius: 0;
   border-radius: 0;
-  border-color: #4bd043; }
+  border-color: #828282; }
 
 .carousel-indicators li.active {
-  background-color: #4bd043; }
+  background-color: #828282; }
 
 .item p {
   font-size: 19px;
@@ -241,7 +241,7 @@ footer {
   width: 100%; }
 
 footer p {
-  color: #4bd043;
+  color: #dddddd;
   font-size: 13px; }
 
 #web4evo {
