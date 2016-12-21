@@ -11,6 +11,7 @@ jQuery(document).ready(function() {
         });
     });
 
+        
     //Smooth scrolling
     $("#menu").on("click", "a", function (event) {
         event.preventDefault();
