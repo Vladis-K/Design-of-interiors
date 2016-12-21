@@ -1,0 +1,172 @@
+{
+  "response": [
+    {
+      "id": "01",
+      "title": "Living room",
+      "description": "Kyiv",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/11.jpg"
+    },
+    {
+      "id": "02",
+      "title": "Living room",
+      "description": "Kyiv",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/12.jpg"
+    },
+    {
+      "id": "03",
+      "title": "Living room",
+      "description": "Living room",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/13.jpg"
+    },
+    {
+      "id": "04",
+      "title": "Lounge",
+      "description": "Kyiv",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/14.jpg"
+    },
+    {
+      "id": "05",
+      "title": "Lounge",
+      "description": "Kyiv",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/15.jpg"
+    },
+    {
+      "id": "06",
+      "title": "Lounge",
+      "description": "Kyiv",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/16.jpg"
+    },
+    {
+      "id": "07",
+      "title": "Bedroom",
+      "description": "Kyiv",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/18.jpg"
+    },
+    {
+      "id": "08",
+      "title": "Bedroom",
+      "description": "Kyiv",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/09.jpg"
+    },
+    {
+      "id": "09",
+      "title": "Bedroom",
+      "description": "Kyiv",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/17.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Bedroom",
+      "description": "Kyiv",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/08.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Bath",
+      "description": "Kyiv",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/20.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Bath",
+      "description": "Kyiv",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/21.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Lounge",
+      "description": "Warsaw",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/04.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Lounge",
+      "description": "Warsaw",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/05.jpg"
+    },
+    {
+      "id": "15",
+      "title": "Lounge",
+      "description": "Warsaw",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/06.jpg"
+    },
+    {
+      "id": "16",
+      "title": "Parlor",
+      "description": "Warsaw",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/07.jpg"
+    },
+    {
+      "id": "17",
+      "title": "Parlor",
+      "description": "Warsaw",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/23.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Bedroom",
+      "description": "Warsaw",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/24.jpg"
+    },
+    {
+      "id": "19",
+      "title": "Bedroom",
+      "description": "Warsaw",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/25.jpg"
+    },
+    {
+      "id": "20",
+      "title": "Bedroom",
+      "description": "Warsaw",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/26.jpg"
+    },
+    {
+      "id": "21",
+      "title": "Bedroom",
+      "description": "Warsaw",
+      "owner_id": "Malinowski",
+      "date": "1476093873",
+      "image_medium": "../img/27.jpg"
+    }
+  ]
+}
