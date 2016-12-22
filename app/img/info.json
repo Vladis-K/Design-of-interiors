@@ -14,7 +14,7 @@
       "description": "Kyiv",
       "owner_id": "Malinowski",
       "date": "1476093873",
-      "image_medium": "../img/12.jpg"
+      "image_medium": "img/12.jpg"
     },
     {
       "id": "03",
@@ -46,7 +46,7 @@
       "description": "Kyiv",
       "owner_id": "Malinowski",
       "date": "1476093873",
-      "image_medium": "../img/16.jpg"
+      "image_medium": "img/16.jpg"
     },
     {
       "id": "07",
