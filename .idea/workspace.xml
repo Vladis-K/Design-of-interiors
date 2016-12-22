@@ -4,93 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/app/index.html" description="                  &lt;div class=&quot;move-left&quot;&gt;&#10;        ..." line="155" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a07772-3312-4ed9-971c-ddecf67f1d8c" name="Default" comment="some_changes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/Logo.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon-k.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/footer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/new/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/new/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/new/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/new/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/new/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/new/06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/new/07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/new/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/new/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/new/25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/new/26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/new/27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/orig/08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/orig/09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Logo.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/favicon-k.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/footer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/middle-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/middle-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/new/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/new/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/new/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/new/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/new/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/new/06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/new/07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/new/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/new/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/new/25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/new/26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/new/27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/orig/08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/orig/09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/orig/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/orig/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/orig/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/orig/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/orig/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/orig/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/orig/4.1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Malinovsky-PL.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/info.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/css/main.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/css/vendor.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/info.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/js/main.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/js/vendor.min.js" />
+    <list default="true" id="73a07772-3312-4ed9-971c-ddecf67f1d8c" name="Default" comment="test_virsion">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/info.json" afterPath="$PROJECT_DIR$/app/img/info.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <ignored path="Malinovsky-PL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -150,8 +67,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="382">
-                  <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+                <state relative-caret-position="531">
+                  <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -209,9 +126,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="width" value="1358" />
-    <option name="height" value="735" />
+    <option name="x" value="-1" />
+    <option name="width" value="1369" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -348,7 +265,9 @@
       <workItem from="1482164616900" duration="12472000" />
       <workItem from="1482219872327" duration="24148000" />
       <workItem from="1482265453943" duration="63000" />
-      <workItem from="1482346290094" duration="581000" />
+      <workItem from="1482346290094" duration="1210000" />
+      <workItem from="1482390065784" duration="1279000" />
+      <workItem from="1482435574230" duration="146000" />
     </task>
     <task id="LOCAL-00001" summary="Some_changes">
       <created>1481550974637</created>
@@ -462,14 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1482346329271</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="test_virsion">
+      <created>1482346920654</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1482346920654</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207242000" />
+    <option name="totallyTimeSpent" value="209296000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1358" height="735" extended-state="0" />
+    <frame x="-1" y="0" width="1369" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12884334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -520,7 +446,8 @@
     <MESSAGE value="global_changes_and_improvements" />
     <MESSAGE value="refine_colors" />
     <MESSAGE value="some_changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some_changes" />
+    <MESSAGE value="test_virsion" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_virsion" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -841,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+        <state relative-caret-position="531">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
